@@ -1,8 +1,8 @@
 from selenium import webdriver
 import unittest
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
+# import sys
+# import os
+# sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 from project.Page.loginPage import LoginPage
 from project.Page.homePage import HomePage
 
