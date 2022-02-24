@@ -31,7 +31,3 @@ class HomePage():
     def continue_shopping(self):
         self.driver.find_element_by_id(self.continue_id).click()
         self.driver.find_element_by_id(self.finish_id).click()
-
-    # def titleAssert(self):
-    #     self.driver.find_element_by_class_name(self.title_name).text()
-    #     assert self.title_name in "THANK YOU FOR YOUR ORDER"

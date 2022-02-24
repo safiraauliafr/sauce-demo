@@ -32,8 +32,6 @@ assert title in "THANK YOU FOR YOUR ORDER"
 
 
 
-#driver.find_element_by_xpath('//*[@id="item_4_title_link"]/div')
-
 
 # driver.close()
 # driver.quit()
